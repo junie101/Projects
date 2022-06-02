@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: tan;
+    height: 100vh;
+    place-items: center;
+    display: grid;
+}
+.container {
+    padding: 100px;
+    border-radius: 40px;
+    background-color: antiquewhite;
+    position: relative;
+    width: auto;
+    
+}
+h1 {
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: grey;
+}
+.btns {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-around;
+}
+.btns button {
+    padding: 15px;
+    width: 100px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button.increase {
+    background-color: green;
+}
+button.decrease {
+    background-color: red;
+}
+button.reset {
+    background-color: silver;
+}
